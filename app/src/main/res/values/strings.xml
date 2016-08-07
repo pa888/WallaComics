@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">Wallapop Comics</string>
-    <string name="title_item_detail">Item Detail</string>
+    <string name="app_name">WallaComics</string>
+    <string name="title_item_detail">Comics Detail</string>
+
+    <string name="loading_message">Loading heroes…</string>
+    <string name="error_message">There was a problem fetching the data, please try again later</string>
+
+    <string name="comic_title">Comic Information</string>
 </resources>

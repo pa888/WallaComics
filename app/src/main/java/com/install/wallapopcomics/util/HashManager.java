@@ -6,12 +6,13 @@ import java.security.NoSuchAlgorithmException;
 /**
  * Created by Peter on 07.08.2016.
  */
-public class Hash {
-    public String calculateHash(String ts){
+public class HashManager {
+
+    public static String calculateHash(String ts){
         return md5Old(ts + Constants.PRIVATE_KEY + Constants.PUBLIC_KEY);
     }
 
-    public static String md5(final String s) {
+    private static String md5(final String s) {
         final String MD5 = "MD5";
         try {
             // Create MD5 Hash
@@ -36,7 +37,7 @@ public class Hash {
         return "";
     }
 
-    public String md5Old(String md5) {//Supports zeros for old android versions
+    private static String md5Old(String md5) {//Supports zeros for old android versions
         try {
             java.security.MessageDigest md = java.security.MessageDigest.getInstance("MD5");
             byte[] array = md.digest(md5.getBytes());
