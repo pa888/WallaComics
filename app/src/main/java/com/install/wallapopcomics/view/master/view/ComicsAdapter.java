@@ -1,11 +1,11 @@
-package com.install.wallapopcomics.master.view;
+package com.install.wallapopcomics.view.master.view;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.install.wallapopcomics.R;
-import com.install.wallapopcomics.master.ComicListCallback;
+import com.install.wallapopcomics.view.master.ComicListCallback;
 import com.install.wallapopcomics.model.ComicsData;
 import com.squareup.picasso.Picasso;
 

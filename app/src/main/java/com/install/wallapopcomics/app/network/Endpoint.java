@@ -1,7 +1,7 @@
-package com.install.wallapopcomics.network;
+package com.install.wallapopcomics.app.network;
 
 import com.install.wallapopcomics.model.CharacterDataWrapper;
-import com.install.wallapopcomics.model.response.CharacterResponse;
+
 import java.util.Map;
 
 import retrofit2.Call;

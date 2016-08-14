@@ -1,6 +1,6 @@
-package com.install.wallapopcomics.network;
+package com.install.wallapopcomics.app.network;
 
-import com.install.wallapopcomics.util.Constants;
+import com.install.wallapopcomics.app.util.Constants;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

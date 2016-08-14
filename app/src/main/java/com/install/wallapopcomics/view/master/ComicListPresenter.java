@@ -1,20 +1,17 @@
-package com.install.wallapopcomics.master;
+package com.install.wallapopcomics.view.master;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 
 import com.install.wallapopcomics.app.App;
-import com.install.wallapopcomics.master.view.ComicListUi;
+import com.install.wallapopcomics.view.master.view.ComicListUi;
 import com.install.wallapopcomics.model.CharacterDataWrapper;
 import com.install.wallapopcomics.model.ComicDataContainer;
 import com.install.wallapopcomics.model.ComicsData;
-import com.install.wallapopcomics.model.response.CharacterResponse;
-import com.install.wallapopcomics.network.ApiService;
+import com.install.wallapopcomics.app.network.ApiService;
 import com.install.wallapopcomics.presenter.DataPersistor;
-import com.install.wallapopcomics.util.Constants;
-
-import org.w3c.dom.CharacterData;
+import com.install.wallapopcomics.app.util.Constants;
 
 import java.util.List;
 

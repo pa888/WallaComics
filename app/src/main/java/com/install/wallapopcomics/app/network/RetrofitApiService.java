@@ -1,9 +1,6 @@
-package com.install.wallapopcomics.network;
+package com.install.wallapopcomics.app.network;
 
 import com.install.wallapopcomics.model.CharacterDataWrapper;
-import com.install.wallapopcomics.model.response.CharacterResponse;
-
-import org.w3c.dom.CharacterData;
 
 import retrofit2.Call;
 import retrofit2.Callback;

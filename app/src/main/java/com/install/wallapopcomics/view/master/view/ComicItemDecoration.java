@@ -1,4 +1,4 @@
-package com.install.wallapopcomics.master.view;
+package com.install.wallapopcomics.view.master.view;
 
 import android.content.res.Resources;
 import android.graphics.Rect;

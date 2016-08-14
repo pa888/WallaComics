@@ -1,14 +1,12 @@
 package com.install.wallapopcomics.app;
 
-import android.app.Application;
-
-import com.install.wallapopcomics.util.Constants;
+import com.install.wallapopcomics.app.util.Constants;
 import com.splunk.mint.Mint;
 
 /**
  * Created by Peter on 07.08.2016.
  */
-public class App extends Application {
+public class App extends SecureApp {
     private static App instance;
     private BackgroundAppManager backgroundAppManager;
 
@@ -29,7 +27,7 @@ public class App extends Application {
         return backgroundAppManager;
     }
 
-    public static App getInstance(){
+    public static App getInstance() {
         return instance;
     }
 }

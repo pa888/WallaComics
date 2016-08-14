@@ -1,4 +1,4 @@
-package com.install.wallapopcomics.detail;
+package com.install.wallapopcomics.view.detail;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

@@ -1,9 +1,10 @@
-package com.install.wallapopcomics.master.view;
+package com.install.wallapopcomics.view.master.view;
 
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.install.wallapopcomics.BuildConfig;
 import com.install.wallapopcomics.app.App;
 import com.squareup.picasso.Picasso;
 
@@ -33,7 +34,7 @@ public class ViewModule {
     }
 
     private static RecyclerView.LayoutManager comicsLayoutManager() {
-        return new GridLayoutManager(App.getInstance(), ComicListUi.CARDS_PER_ROW);
+        return new GridLayoutManager(App.getInstance(), BuildConfig.CARDS_PER_ROW);
     }
 
     private static ViewHolderFactory viewHolderFactory() {

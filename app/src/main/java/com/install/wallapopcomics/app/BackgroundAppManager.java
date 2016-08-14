@@ -14,7 +14,7 @@ public class BackgroundAppManager {
         executorService = Executors.newFixedThreadPool(8);
     }
 
-    public Future executeTask(Runnable runnable){
+    public Future executeTask(Runnable runnable) {
         return executorService.submit(runnable);
     }
 }

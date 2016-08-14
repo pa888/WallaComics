@@ -1,4 +1,4 @@
-package com.install.wallapopcomics.master;
+package com.install.wallapopcomics.view.master;
 
 import com.install.wallapopcomics.model.ComicsData;
 import com.install.wallapopcomics.presenter.ActivityPresenter;

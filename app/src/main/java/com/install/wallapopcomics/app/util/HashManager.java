@@ -1,4 +1,4 @@
-package com.install.wallapopcomics.util;
+package com.install.wallapopcomics.app.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

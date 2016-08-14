@@ -1,6 +1,6 @@
-package com.install.wallapopcomics.master;
+package com.install.wallapopcomics.view.master;
 
-import com.install.wallapopcomics.network.NetworkManager;
+import com.install.wallapopcomics.app.network.NetworkManager;
 
 class MasterModule {
     static ComicListPresenter comicListPresenter() {

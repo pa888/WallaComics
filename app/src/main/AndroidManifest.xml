@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.install.wallapopcomics">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk tools:ignore="GradleOverrides"/>
 
     <application
         android:allowBackup="true"
@@ -15,7 +18,7 @@
         android:name=".app.App"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".master.ComicListActivity"
+            android:name="com.install.wallapopcomics.view.master.ComicListActivity"
             android:label="@string/app_name"
             android:configChanges="orientation|keyboardHidden|keyboard|layoutDirection|screenLayout|screenSize"
 
@@ -27,14 +30,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".detail.ComicActivity"
+            android:name="com.install.wallapopcomics.view.detail.ComicActivity"
             android:label="@string/title_item_detail"
             android:configChanges="orientation|keyboardHidden|keyboard|layoutDirection|screenLayout|screenSize"
-            android:parentActivityName=".detail.ComicActivity"
+            android:parentActivityName=".view.detail.ComicActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".detail.ComicActivity" />
+                android:value=".view.detail.ComicActivity" />
         </activity>
     </application>
 

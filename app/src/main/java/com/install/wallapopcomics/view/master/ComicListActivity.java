@@ -1,11 +1,11 @@
-package com.install.wallapopcomics.master;
+package com.install.wallapopcomics.view.master;
 
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.install.wallapopcomics.master.view.ComicListUi;
-import com.install.wallapopcomics.master.view.ViewModule;
+import com.install.wallapopcomics.view.master.view.ComicListUi;
+import com.install.wallapopcomics.view.master.view.ViewModule;
 import com.install.wallapopcomics.model.ComicsData;
 import com.install.wallapopcomics.presenter.ActivityLauncher;
 import com.install.wallapopcomics.presenter.DataPersistor;

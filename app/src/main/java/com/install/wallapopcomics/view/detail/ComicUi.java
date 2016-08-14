@@ -1,4 +1,4 @@
-package com.install.wallapopcomics.detail;
+package com.install.wallapopcomics.view.detail;
 
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -12,10 +12,10 @@ import com.install.wallapopcomics.model.ComicsData;
 import com.install.wallapopcomics.model.response.Image;
 import com.install.wallapopcomics.presenter.ActivityPresenter;
 import com.install.wallapopcomics.presenter.NavigationCallback;
-import com.install.wallapopcomics.util.Constants;
+import com.install.wallapopcomics.app.util.Constants;
 import com.squareup.picasso.Picasso;
 
-class ComicUi implements View.OnClickListener {
+public class ComicUi implements View.OnClickListener {
 
     private final Picasso mPicasso;
 
@@ -25,11 +25,11 @@ class ComicUi implements View.OnClickListener {
     private ImageView mComicImage;
     private NavigationCallback mNavigationCallback;
 
-    ComicUi(Picasso picasso) {
+    public ComicUi(Picasso picasso) {
         mPicasso = picasso;
     }
 
-    void createView(ActivityPresenter activityPresenter, NavigationCallback navigationCallback, ComicsData comic) {
+    public void createView(ActivityPresenter activityPresenter, NavigationCallback navigationCallback, ComicsData comic) {
         activityPresenter.setContentView(R.layout.activity_comic);
         mNavigationCallback = navigationCallback;
 
